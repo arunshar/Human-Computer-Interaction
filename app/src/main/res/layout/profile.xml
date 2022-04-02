@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    tools:context=".Profile">
+
+    <RelativeLayout
+        android:id="@+id/profile"
+        android:layout_width="378dp"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <RatingBar
+            android:id="@+id/ratingBar3"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="212dp"
+            android:numStars="5"
+            android:rating="4" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="195dp"
+            android:layout_height="196dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="6dp"
+            app:srcCompat="@mipmap/ic_launcher_foreground_tom_riddle" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="14dp"
+            android:layout_toEndOf="@+id/imageView7"
+            android:text="Name: Tim Riddle"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView20"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="21dp"
+            android:layout_toEndOf="@+id/imageView7"
+            android:text="ID: 5497352"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView47"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="60dp"
+            android:text="Year: Junior"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView7"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="216dp"
+            android:text="Review"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView65"
+            android:layout_width="376dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView64"
+            android:layout_alignStart="@+id/imageView7"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="13dp"
+            android:text='As a seller: Introduction to Algorithm Comments:"Nice guy".'
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView47"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="163dp"
+            android:text="Rating: 4.5/5"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView65"
+            android:layout_marginTop="16dp"
+            android:text='As a buyer: Computer Network          Comments:"Fast delivery".'
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView67"
+            android:layout_alignStart="@+id/textView65"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="31dp"
+            android:text="MyClass"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView68"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-4dp"
+            android:layout_marginEnd="0dp"
+            android:onClick="goToSearchClass"
+            android:text="Add Class" />
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginBottom="43dp"
+            android:text="CSCI 5115: UI Design, Implementation and Eval" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="283dp"
+            android:numStars="5"
+            android:rating="5" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

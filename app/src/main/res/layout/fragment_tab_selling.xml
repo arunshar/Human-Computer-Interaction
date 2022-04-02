@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="395dp"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="85dp"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="31dp"
+                android:onClick="goToPost"
+                app:layout_constraintBottom_toBottomOf="@+id/button19"
+                app:layout_constraintEnd_toStartOf="@+id/textView36"
+                app:layout_constraintStart_toEndOf="@+id/button17"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@mipmap/algorithms_foreground" />
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textViewShortDesc"
+                android:layout_alignStart="@+id/textViewShortDesc"
+                android:layout_alignTop="@+id/imageView6"
+                android:text="Introduction to Operating Systems"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textViewShortDesc"
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView6"
+                android:layout_alignEnd="@+id/button25"
+                android:text="Andrew S. Tenembaum"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/textViewPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textViewTitle"
+                android:layout_below="@+id/textView55"
+                android:text="$65.46"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/imageView6"
+                android:layout_marginEnd="69dp"
+                android:text="Pending" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textViewTitle"
+                android:layout_centerVertical="true"
+                android:text="Arun" />
+
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="37dp"
+                android:layout_marginTop="198dp"
+                android:text="Rate this transaction" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
